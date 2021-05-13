@@ -1,0 +1,170 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-rows: 60px 300px auto auto;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+}
+
+header p{
+    opacity: 40%;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cards div{
+    width:25rem;
+    height: 25rem;
+    border-radius: 48px;
+    display: flex;
+    background: #d1d1d1;
+    box-shadow:  13px 13px 21px #b0b0b0,
+                -13px -13px 21px #f2f2f2;
+}
+
+.album img{
+    border-radius: 48px;
+    padding: 5px;
+}
+
+.artista{
+    text-align: center;
+    font-size: 2rem;
+    opacity: 80%;
+}
+
+.progress-bar { 
+    position: relative;
+    height:1.5rem ;
+    width: 80%;
+    border: 3px solid #b0b0b0;
+    border-radius: 15px;
+    margin: 2rem auto;
+}
+
+.progress-bar .color{
+    position: absolute;
+    background-color: black;
+    width: 30%;
+    height: 9px;
+    opacity: 50%;
+    border-radius: 15px;
+    animation: progres 4s infinite linear;    
+}
+
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: 15rem;
+}
+
+
+.preview{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 101px;
+    display: flex;
+    justify-content: center;
+background: #d1d1d1;
+box-shadow:  9px 9px 19px #b0b0b0,
+             -9px -9px 19px #f2f2f2;
+}
+
+i{
+    opacity: 50%;
+}
+
+.preview i{
+    align-self: center;
+    font-size: 1.5rem;
+}
+
+.review{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 101px;
+    display: flex;
+    justify-content: center;
+background: #d1d1d1;
+box-shadow:  9px 9px 19px #b0b0b0,
+             -9px -9px 19px #f2f2f2;
+}
+
+.review i{
+    align-self: center;
+    font-size: 1.5rem;
+}
+
+.play{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 101px;
+    display: flex;
+    justify-content: center;
+background: #d1d1d1;
+box-shadow:  9px 9px 19px #b0b0b0,
+             -9px -9px 19px #f2f2f2;
+}
+
+.play i{
+    align-self: center;
+    font-size: 2.8rem;
+}
+
+.next{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 101px;
+    background: #d1d1d1;
+    box-shadow:  9px 9px 19px #b0b0b0,
+                -9px -9px 19px #f2f2f2;
+    display: flex;
+    justify-content: center;
+}
+
+
+.next i{
+    align-self: center;
+    font-size: 2rem;
+}
+
+
+.skip{
+    width:3rem;
+    height: 3rem;
+    border-radius: 101px;
+    background: #d1d1d1;
+    box-shadow:  9px 9px 19px #b0b0b0,
+                -9px -9px 19px #f2f2f2;
+     display: flex; 
+    justify-content: center;
+}
+
+.skip i{
+    align-self: center;
+    font-size: 2rem;
+}
+
+
+
+
+
